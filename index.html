@@ -6,19 +6,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Capital Construcciones | Inicio</title>
 </head>
 
-<body>
-    <nav>Hola</nav>
-    <header></header>
-    <main></main>
-    <footer></footer>
+<body class="body-background">
+    <div class="preloader-wrapper">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+        </div>
+    </div>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <header id="headerIndex" class="hero-container hero-photo d-flex flex-column justify-content-start">
+        <nav class="navbar navbar-expand-lg nav-capital">
+            <div class="container-fluid nav-capital-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/assets/images/logo/Logo-blanco.png" alt="Logo de capital construcciones">
+                </a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-capital-ul-container" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/services.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/work.html">Obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-text" data-aos="fade-right" data-aos-offset="250" data-aos-easing="ease-in-sine">
+            <h1>Capital Construcciones</h1>
+            <h3>Algun Slogan corto de la empresa...</h3>
+            <a href="#footer" class="button-hero">Conocenos</a>
+        </div>
+        <!-- <a href="pages/about.html" class="a-button"></a> -->
+    </header>
+    <!-- <div class="skewed"></div> -->
+
+    <main id="mainIndex" class="main-container container-fluid">
+        <div class="container" data-aos="fade-in" data-aos-offset="250" data-aos-easing="ease-in-sine">
+
+            <section class="main-home row d-flex justify-content-center align-items-center flex-column py-5">
+                <div class="row main-card col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3 class="pb-4">Construcciones para toda la vida</h3>
+                    <p class="pb-4 mx-auto"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="row w-75 col-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
+                    <div class="w-auto mx-auto text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#0d406b"
+                            class="bi bi-building" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                            <path
+                                d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                        </svg>
+                        <h4 class="py-4">Subtitulo</h4>
+                    </div>
+                    <div class="w-auto mx-auto text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#0d406b" class="bi bi-gear"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                            <path
+                                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                        </svg>
+                        <h4 class="py-4">Subtitulo</h4>
+                    </div>
+                    <div class="w-auto mx-auto text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#0d406b"
+                            class="bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                        </svg>
+                        <h4 class="py-4">Subtitulo</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-clients row text-center  py-5" data-aos="fade-in" data-aos-offset="200"
+                data-aos-easing="ease-in-sine">
+                <h3 class="pt-5">Confían en Nosotros</h3>
+                <ul class="d-flex justify-content-around align-items-center pb-5 mt-5">
+                    <li>
+                        <img src="/assets/images/logo/google-gmail.svg" width="70px" alt="">
+                    </li>
+                    <li>
+                        <img src="/assets/images/logo/google-maps.svg" width="50px" alt="">
+                    </li>
+                    <li>
+                        <img src="/assets/images/logo/Logo-blanco.png" width="100px" alt="">
+                    </li>
+                    <li>
+                        <img src="/assets/images/logo/linkedin-icon.svg" width="50px" alt="">
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer-container footer-photo container-fluid pb-5">
+        <div class="row my-auto mx-auto pt-lg-5">
+            <nav
+                class="footer-nav-ul col-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
+                <ul>
+                    <li>
+                        <a class="nav-link active my-2 py-1" href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link my-2 py-1" href="pages/about.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link my-2 py-1" href="pages/services.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="nav-link my-2 py-1" href="pages/work.html">Obras</a>
+                    </li>
+                    <li>
+                        <a class="nav-link my-2 py-1" href="pages/contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div
+                class="footer-logo col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <img class="pt-5" src="/assets/images/logo/Logo-blanco.png" width="150px" alt="">
+                <div class="pt-5 pb-3">
+                    <a class="px-2" href="http://"><img src="/assets/images/logo/instagram-icon.svg" width="40px"
+                            alt=""></a>
+                    <a class="px-2" href="http://"><img src="/assets/images/logo/linkedin-icon.svg" width="40px"
+                            alt=""></a>
+                </div>
+                <p>&copy; 2023 Capital Construcciones - Todos los derechos reservados</p>
+            </div>
+            <div
+                class="footer-contact-ul col-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
+                <ul>
+                    <li class="d-flex justify-content-start align-items-center ">
+                        <img class="mx-3 my-2" src="/assets/images/logo/google-maps.svg" width="30px" alt="">
+                        <p class="mx-3 my-2">Calle numero</p>
+                    </li>
+                    <li class="d-flex justify-content-start align-items-center ">
+                        <img class="mx-3 my-2" src="/assets/images/logo/google-gmail.svg" width="30px" alt="">
+                        <a class="mx-3 my-2" href="mailto:cuenta@deemail.com">correoelectronico@correo.com</a>
+                    </li>
+                    <li class="d-flex justify-content-start align-items-center ">
+                        <img class="mx-3 my-2" src="/assets/images/logo/whatsapp.svg" width="30px" alt="">
+                        <p class="mx-3 my-2">w343435535</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../index.js"></script>
+
 </body>
 
 </html>
