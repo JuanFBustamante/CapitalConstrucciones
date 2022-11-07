@@ -10905,19 +10905,24 @@ body {
   -moz-border-radius: 10px;
   text-align: center;
 }
-.main-container .main-home h3, .main-container .main-home .h3 {
+.main-container .main-home .main-card h3, .main-container .main-home .main-card .h3 {
   font-size: 3.5rem;
   font-weight: 600;
   color: #0d406b;
 }
-.main-container .main-home p {
+.main-container .main-home .main-card p {
   width: 90%;
   color: #0d406b;
   font-size: 2rem;
   text-align: center;
 }
-.main-container .main-home h4, .main-container .main-home .h4 {
-  font-size: 3rem;
+.main-container .main-home .main-sub h4, .main-container .main-home .main-sub .h4 {
+  font-size: 2.8rem;
+  color: #0d406b;
+}
+.main-container .main-home .main-sub p {
+  font-size: 1.3rem;
+  text-align: left;
   color: #0d406b;
 }
 .main-container .section-clients {
@@ -10999,7 +11004,7 @@ body {
 
 .contact-info__wrapper {
   overflow: hidden;
-  border-radius: 0 0 0.625rem 0.625rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   padding: 0 !important;
 }
 .contact-info__wrapper iframe {
@@ -11087,9 +11092,6 @@ body {
   color: #db7304;
   margin-right: auto;
 }
-.about-content .about-text .about-p {
-  width: 70%;
-}
 .about-content .about-text .about-p p {
   width: 85%;
   font-size: 1.7rem;
@@ -11118,17 +11120,14 @@ body {
   border-top: 2px solid rgb(237, 236, 236);
 }
 .person-container .person-data .person-card {
-  background-color: rgba(239, 237, 237, 0.9960784314);
   width: 40%;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  box-shadow: 0px 0px 14px 5px rgba(219, 216, 216, 0.75);
-  -webkit-box-shadow: 0px 0px 14px 5px rgba(219, 216, 216, 0.75);
-  -moz-box-shadow: 0px 0px 14px 5px rgba(219, 216, 216, 0.75);
 }
 .person-container .person-data .person-card img {
   width: 100%;
+  border-radius: 100px;
 }
 
 .service-content .service-photo img {
