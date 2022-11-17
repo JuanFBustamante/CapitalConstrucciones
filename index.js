@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // let headerIndex =document.getElementById("headerIndex")
 // let headerServices =document.getElementById("headerServices")
 // let headerAbout =document.getElementById("headerAbout")
