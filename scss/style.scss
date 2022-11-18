@@ -84,6 +84,14 @@ $colors:(first: #0d406b,
         .nav-capital-container {
             width: 100%;
 
+            button.navbar-toggler {
+                border: 1px solid #fff !important;
+
+                span {
+                    color: #fff !important;
+                }
+            }
+
             a {
                 padding: 15px;
 
@@ -669,7 +677,7 @@ $colors:(first: #0d406b,
 }
 
 .modal-content {
-    background-color: rgba(92, 92, 92, 0.3);
+    background-color: rgba(50, 50, 50, 0.757);
 
     .modal-header {
         border: none;
@@ -709,11 +717,13 @@ $colors:(first: #0d406b,
             .nav-capital-container {
                 width: 100%;
 
+
+
                 a {
                     padding: 15px;
 
                     img {
-                        width: 150px;
+                        width: 95px;
                     }
                 }
 
@@ -1032,11 +1042,11 @@ $colors:(first: #0d406b,
             .nav-capital-container {
                 width: 100%;
 
-                a {
+                a.navbar-brand {
                     padding: 15px;
 
                     img {
-                        width: 150px;
+                        width: 100px;
                     }
                 }
 

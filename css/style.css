@@ -10820,6 +10820,12 @@ body {
 .hero-container nav.nav-capital .nav-capital-container {
   width: 100%;
 }
+.hero-container nav.nav-capital .nav-capital-container button.navbar-toggler {
+  border: 1px solid #fff !important;
+}
+.hero-container nav.nav-capital .nav-capital-container button.navbar-toggler span {
+  color: #fff !important;
+}
 .hero-container nav.nav-capital .nav-capital-container a {
   padding: 15px;
 }
@@ -11204,7 +11210,7 @@ body {
 }
 
 .modal-content {
-  background-color: rgba(92, 92, 92, 0.3);
+  background-color: rgba(50, 50, 50, 0.757);
 }
 .modal-content .modal-header {
   border: none;
@@ -11236,7 +11242,7 @@ body {
     padding: 15px;
   }
   .hero-container nav.nav-capital .nav-capital-container a img {
-    width: 150px;
+    width: 95px;
   }
   .hero-container nav.nav-capital .nav-capital-container .nav-capital-ul-container ul {
     border-radius: 10px 10px 10px 10px;
@@ -11397,11 +11403,11 @@ body {
   .hero-container nav.nav-capital .nav-capital-container {
     width: 100%;
   }
-  .hero-container nav.nav-capital .nav-capital-container a {
+  .hero-container nav.nav-capital .nav-capital-container a.navbar-brand {
     padding: 15px;
   }
-  .hero-container nav.nav-capital .nav-capital-container a img {
-    width: 150px;
+  .hero-container nav.nav-capital .nav-capital-container a.navbar-brand img {
+    width: 100px;
   }
   .hero-container nav.nav-capital .nav-capital-container .nav-capital-ul-container ul {
     border-radius: 10px 10px 10px 10px;
