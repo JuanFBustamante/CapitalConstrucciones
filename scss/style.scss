@@ -85,10 +85,11 @@ $colors:(first: #0d406b,
             width: 100%;
 
             button.navbar-toggler {
-                border: 1px solid #fff !important;
+                border: 1px solid map-get($colors, sixth) !important;
 
-                span {
-                    color: #fff !important;
+                &:active {
+                    border: 1px solid map-get($colors, second) !important;
+                    outline: none;
                 }
             }
 
@@ -152,14 +153,14 @@ $colors:(first: #0d406b,
             padding: 5px 15px;
             color: map-get($colors, sixth);
             background-color: transparent;
-            border: 1px solid #fff;
+            border: 1px solid map-get($colors, sixth);
             @extend %buttonradius;
             @extend %transition;
 
             &:hover {
                 color: map-get($colors, first);
-                background-color: map-get($colors, sixth);
-                border: 1px solid #fff;
+                background-color: map-get($colors, second);
+                border: 1px solid map-get($colors, first);
             }
         }
     }
@@ -235,7 +236,7 @@ $colors:(first: #0d406b,
 
     .section-clients {
         // background-color: map-get($colors, first);
-        border-top: 2px solid rgb(237, 236, 236);
+        border-top: 1px solid map-get($colors, second);
 
         h3 {
             font-size: 3rem;
@@ -450,9 +451,17 @@ $colors:(first: #0d406b,
 
 .btn-form {
     background-color: map-get($colors, second);
+    border: 1px solid map-get($colors, second);
     color: map-get($colors, sixth);
     font-size: 1.4rem;
 
+    &:hover {
+        background-color: map-get($colors, sixth);
+        color: map-get($colors, second);
+        border: 1px solid map-get($colors, second);
+
+
+    }
 }
 
 

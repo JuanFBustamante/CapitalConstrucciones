@@ -10823,8 +10823,9 @@ body {
 .hero-container nav.nav-capital .nav-capital-container button.navbar-toggler {
   border: 1px solid #fff !important;
 }
-.hero-container nav.nav-capital .nav-capital-container button.navbar-toggler span {
-  color: #fff !important;
+.hero-container nav.nav-capital .nav-capital-container button.navbar-toggler:active {
+  border: 1px solid #db7304 !important;
+  outline: none;
 }
 .hero-container nav.nav-capital .nav-capital-container a {
   padding: 15px;
@@ -10871,8 +10872,8 @@ body {
 }
 .hero-container .hero-text .button-hero:hover {
   color: #0d406b;
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #db7304;
+  border: 1px solid #0d406b;
 }
 
 .hero-photo {
@@ -10929,7 +10930,7 @@ body {
   color: #0d406b;
 }
 .main-container .section-clients {
-  border-top: 2px solid rgb(237, 236, 236);
+  border-top: 1px solid #db7304;
 }
 .main-container .section-clients h3, .main-container .section-clients .h3 {
   font-size: 3rem;
@@ -11065,8 +11066,14 @@ body {
 }
 .btn-form {
   background-color: #db7304;
+  border: 1px solid #db7304;
   color: #fff;
   font-size: 1.4rem;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #db7304;
+  border: 1px solid #db7304;
 }
 
 .about-content .about-text {
